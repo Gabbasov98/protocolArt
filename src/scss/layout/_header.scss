@@ -1,0 +1,32 @@
+@import "../vars";
+.header{
+  padding: 4.2em 0;
+  &__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo{
+    display: block;
+    width: 27em;
+    img{
+      width: 100%;
+      display: block;
+    }
+  }
+  &__buttons{
+    display: flex;
+    align-items: center;
+  }
+  &__link,
+  &__btn{
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: $font2;
+    margin-left: 2.1em;
+  }
+  &__btn{
+    width: 8em;
+    height: 3.7em;
+  }
+}

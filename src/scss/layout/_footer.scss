@@ -1,0 +1,22 @@
+@import "../vars";
+.footer{
+  padding: 4em 0;
+  &__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__links{
+    display: flex;
+    align-items: center;
+  }
+  &__link,
+  &__by{
+    font-size: 1.2em;
+    line-height: 169%;
+    color: $gray;
+  }
+  &__link{
+    margin-left: 2.6em;
+  }
+}
