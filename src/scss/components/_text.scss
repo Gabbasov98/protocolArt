@@ -13,3 +13,14 @@
   line-height: 137%;
   font-weight: 900;
 }
+
+
+@media screen and (max-width: 576px){
+  .display2{
+    font-size: 20px;
+  }
+  .display3{
+    font-size: 18px;
+    line-height: 110%;
+  }
+}

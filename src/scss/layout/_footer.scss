@@ -20,3 +20,22 @@
     margin-left: 2.6em;
   }
 }
+
+@media screen and (max-width: 576px){
+  .footer{
+    &__link,
+    &__by{
+      font-size: 12px;
+    }
+    &__inner{
+      display: block;
+    }
+    &__links{
+      display: block;
+    }
+    &__link{
+      margin: 10px 0 0;
+      display: block;
+    }
+  }
+}
