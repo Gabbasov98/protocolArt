@@ -23,11 +23,15 @@
     font-size: 1.5em;
     font-weight: 600;
     font-family: $font2;
-    margin-left: 2.1em;
+    margin-left: 2em;
   }
   &__btn{
-    width: 8em;
+    min-width: 11.8em;
     height: 3.7em;
+    padding: 0 10px;
+  }
+  &__burger{
+    display: none;
   }
 }
 

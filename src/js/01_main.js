@@ -6,3 +6,4 @@ burger.onclick = function() {
     header.classList.toggle("header--active")
     body.classList.toggle("fixed-body")
 }
+
