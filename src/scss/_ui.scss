@@ -19,6 +19,39 @@
             color: rgba(255, 255, 255, 0.4);
         }
     }
+    &__badge{
+        position: absolute;
+        pointer-events: none;
+        opacity: 0;
+        color: #fff;
+        box-shadow: 0px 0px 10px rgba(28, 146, 255, 0.25);
+        font-size: 1.5em;
+        right: 10px;
+        bottom: 0.8em;
+        height: 2.3em;
+        min-width: 11.5em;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: .6em;
+        &--success{
+            background: #3AB500;
+        }
+        &--error{
+            background: $red;
+        }
+    }
+    .input-succes{
+        &~.fg__badge--success{
+            opacity: 1;
+        }
+    }
+    .input-error{
+        &~.fg__badge--error{
+            opacity: 1;
+        }
+    }
 }
 
 .check {
